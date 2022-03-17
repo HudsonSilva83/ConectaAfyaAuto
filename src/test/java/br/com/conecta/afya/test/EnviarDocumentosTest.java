@@ -106,7 +106,7 @@ public class EnviarDocumentosTest extends BaseTest {
 		enviarDocPage.pegarArquivoCTPSDados();
 		enviarDocPage.descerTela();
 		enviarDocPage.botaoEnviarArquivo();
-		Thread.sleep(6000);
+		Thread.sleep(5000);
 		enviarDocPage.botaoEnviar();
 		
 		

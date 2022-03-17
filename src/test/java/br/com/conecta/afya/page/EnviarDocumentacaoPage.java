@@ -260,11 +260,12 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	}
 
-	public void anexarFoto() {
+	public void anexarFoto() throws InterruptedException {
 
 		botaoAnexarArquivo();
 		// scroll(0.8, 0.1);
 		clicar(By.xpath("//*[@text='arquivoJPG.jpg']"));
+		Thread.sleep(2000);
 		scroll(0.8, 0.1);
 		botaoEnviarArquivo();
 
@@ -455,15 +456,12 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	public void aceitarTermo() {
 
-		// clicarTap(132, 1271);
-		// clicarCheck(MobileBy.AccessibilityId("Li e aceito os termos de envio
-		// das informações presentes"));
+	
 
-		// WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
-		// 15);
-		// wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId("CONCLUIR
-		// ENVIO")));
-		//
+		 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
+		 20);
+		 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.CheckBox")));
+		
 		clicar(By.xpath("//android.widget.CheckBox"));
 
 	}

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.conecta.afya.test.CadastroPessoaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 106.882 s - in br.com.conecta.afya.test.CadastroPessoaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.132 s - in br.com.conecta.afya.test.CadastroPessoaTest

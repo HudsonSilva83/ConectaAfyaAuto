@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.conecta.afya.test.EnviarDocumentosTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 189.301 s <<< FAILURE! - in br.com.conecta.afya.test.EnviarDocumentosTest
-br.com.conecta.afya.test.EnviarDocumentosTest.enviarDocumentos  Time elapsed: 188.397 s  <<< ERROR!
-org.openqa.selenium.InvalidElementStateException: 
-Drag from [x=384.0, y=947.0] to [x=384.0, y=118.0] did not complete successfully
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: '1RCMJC2', ip: '192.168.100.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: a3255ec5-caf3-441a-8da0-5e47c18e4045
-	at br.com.conecta.afya.test.EnviarDocumentosTest.enviarDocumentos(EnviarDocumentosTest.java:125)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 335.274 s - in br.com.conecta.afya.test.EnviarDocumentosTest
