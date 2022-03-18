@@ -57,7 +57,7 @@ pipeline {
     	}
 
 
-        tage ('Deploy Backend'){
+        stage ('Deploy Backend'){
 
          
           
@@ -143,7 +143,7 @@ pipeline {
     	}   
 
 
-        
+
 
 
 
