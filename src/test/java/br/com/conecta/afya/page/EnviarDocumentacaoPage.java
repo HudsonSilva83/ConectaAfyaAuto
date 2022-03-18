@@ -50,7 +50,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	public void botaoEnviar() throws InterruptedException {
 
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		scroll(0.9, 0.1);
 
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 15);
@@ -456,12 +456,9 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	public void aceitarTermo() {
 
-	
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 40);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.CheckBox")));
 
-		 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
-		 20);
-		 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.CheckBox")));
-		
 		clicar(By.xpath("//android.widget.CheckBox"));
 
 	}

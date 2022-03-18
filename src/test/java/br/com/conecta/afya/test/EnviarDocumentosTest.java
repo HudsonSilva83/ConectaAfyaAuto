@@ -52,7 +52,7 @@ public class EnviarDocumentosTest extends BaseTest {
 		enviarDocPage.botaoAnexarArquivo();
 		enviarDocPage.pegarArquivoeSocial();
 		enviarDocPage.botaoEnviarArquivo();
-		Thread.sleep(7000);
+		Thread.sleep(6000);
 		enviarDocPage.botaoEnviar();
 
 
@@ -109,15 +109,11 @@ public class EnviarDocumentosTest extends BaseTest {
 		Thread.sleep(5000);
 		enviarDocPage.botaoEnviar();
 		
-		
-		//trabalhando aqui
 		enviarDocPage.preencherCep("31680320");
 		enviarDocPage.enderecoVisivel();
 		enviarDocPage.botaoSetaBaixo();
 		
-		
-		//Thread.sleep(4000);
-		
+			
 		enviarDocPage.preencherNumeroEndereco("400");
 		enviarDocPage.preencherComplemento("Ap 101 Bloco F");
 		enviarDocPage.botaoCheckFinalizar();
