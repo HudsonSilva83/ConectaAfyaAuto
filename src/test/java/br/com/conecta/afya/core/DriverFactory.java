@@ -36,7 +36,7 @@ public class DriverFactory {
 	    desiredCapabilities.setCapability("automationName", "uiautomator2");
 	    desiredCapabilities.setCapability("autoGrantPermissions", "true");
 	    		desiredCapabilities.setCapability(MobileCapabilityType.APP,
-		"C:\\Users\\DELL\\workspace\\ConectaAfyaAuto\\src\\test\\resources\\app-release.apk");
+		"C:\\Users\\DELL\\workspace\\ConectaAfyaAuto\\src\\test\\resources\\1697100.apk");
 
 		try {
 			driver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);

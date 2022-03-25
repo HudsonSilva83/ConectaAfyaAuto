@@ -6,13 +6,15 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\servic
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\model\Credenciais.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\suites\SuiteGeral.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Post.java
-C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\test\CadastroPessoaTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\DriverFactory.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\HomePage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroSenhaPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\security\CriptexFrw.java
-C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\test\EnviarDocumentosTest.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\Cadastrar\EnviarDocumentos\steps\CadastrarEnviarDocumentosStep.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\Cadastrar\EnviarDocumentos\test\CadastrarEnviarDocumentosTest.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\runners\Runner.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Utils.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\GerarIdPlataforma.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Util.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\EnviarDocumentacaoPage.java

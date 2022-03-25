@@ -12,13 +12,13 @@ public class HomePage extends BasePage {
 
 	public void clicarCampoCodigoAcesso() {
 
-		clicar(MobileBy.AccessibilityId("Digite o código de acesso"));
+		clicar(MobileBy.AccessibilityId("Digite o cÃ³digo de acesso"));
 
 	}
 
 	public void preencherCodigoAcesso(String codigoAcesso) {
 		clicarCampoCodigoAcesso();
-		escrever(By.xpath("//*[@text='Código']"), codigoAcesso);
+		escrever(By.xpath("//*[@text='CÃ³digo']"), codigoAcesso);
 
 	}
 
@@ -30,7 +30,7 @@ public class HomePage extends BasePage {
 
 	public void clicarJaTenhoUmaConta() {
 
-		clicar(MobileBy.AccessibilityId("Já tenho uma conta"));
+		clicar(MobileBy.AccessibilityId("JÃ¡ tenho uma conta"));
 		avancarButton();
 	}
 
@@ -38,10 +38,10 @@ public class HomePage extends BasePage {
 		
 //		 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
 //				 15);
-//				 wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId(("Cadastro Conta criada com sucesso :) Envio de documentos Realizado com sucesso :) Escolha de benefícios Aqui você vai poder escolher e editar os seus benefícios Exame Admissional Fique tranquilo, nossa equipe vai agendar seu exame admissional. Documento Admissional Aqui você vai poder ver, editar e assinar sua ficha de cadastro"))));
+//				 wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId(("Cadastro Conta criada com sucesso :) Envio de documentos Realizado com sucesso :) Escolha de benefï¿½cios Aqui vocï¿½ vai poder escolher e editar os seus benefï¿½cios Exame Admissional Fique tranquilo, nossa equipe vai agendar seu exame admissional. Documento Admissional Aqui vocï¿½ vai poder ver, editar e assinar sua ficha de cadastro"))));
 		
 		
-		return obterTextoAtributo(MobileBy.AccessibilityId("Seu processo de admissão"));
+		return obterTextoAtributo(MobileBy.AccessibilityId("Seu processo de admissÃ£o"));
 	}
 
 	public String verificarEnvioDocumentoSucesso() {

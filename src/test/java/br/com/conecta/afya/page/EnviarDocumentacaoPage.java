@@ -23,7 +23,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 	}
 
 	public boolean validarTela(String texto) {
-		return existeElementoPorAtributo(MobileBy.AccessibilityId("Seu processo de admissão"), "content-desc", texto);
+		return existeElementoPorAtributo(MobileBy.AccessibilityId("Seu processo de admissÃ£o"), "content-desc", texto);
 
 	}
 
@@ -36,7 +36,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 	public String validarTelaDocumentosNecessarios() {
 
 		return obterTextoAtributo(MobileBy.AccessibilityId(
-				"Você só pode concluir o processo se estiver com os documentos abaixo, com exceção do que não se aplica"));
+				"VocÃª sÃ³ pode concluir o processo se estiver com os documentos abaixo, com exceÃ§Ã£o do que nÃ£o se aplica"));
 
 	}
 
@@ -301,7 +301,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 	public void botaoPreencherPis(String pis) throws InterruptedException {
 
 		clicar(MobileBy.AccessibilityId("PREENCHER PIS"));
-		escrever(By.xpath("//*[@text='Digite aqui o número']"), pis);
+		escrever(By.xpath("//*[@text='Digite aqui o nÃºmero']"), pis);
 		Thread.sleep(4000);
 		botaoCheckFinalizar();
 
@@ -432,10 +432,10 @@ public class EnviarDocumentacaoPage extends BasePage {
 		escrever(By.xpath("//*[@text='Digite aqui seu banco']"), banco);
 		botaoSetaBaixo();
 
-		escrever(By.xpath("//*[@text='Digite aqui sua agência']"), agencia);
+		escrever(By.xpath("//*[@text='Digite aqui sua agÃªncia']"), agencia);
 		botaoSetaBaixo();
 
-		escrever(By.xpath("//*[@text='Qual é a sua conta?']"), contaNumero);
+		escrever(By.xpath("//*[@text='Qual Ã© a sua conta?']"), contaNumero);
 		botaoCheckFinalizar();
 
 	}
@@ -469,7 +469,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 	}
 
 	public String mensagm() {
-		return obterTextoAtributo(MobileBy.AccessibilityId("Li e aceito os termos de envio das informações presentes"));
+		return obterTextoAtributo(MobileBy.AccessibilityId("Li e aceito os termos de envio das informaÃ§Ãµes presentes"));
 
 	}
 

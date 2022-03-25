@@ -1,0 +1,163 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Cadastrar e Enviar Documentos de admissao com sucesso",
+        "description": "",
+        "id": "enviar-documentos-de-admissao;cadastrar-e-enviar-documentos-de-admissao-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que fiz meu cadastro na plataforma do Conecta Afya",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "iniciar o envio dos documentos",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "preencher os dados do documento eSocial",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "preencher os dados do documento de Identidade",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "preencher os dados do documento de Carteira de Trabalho",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "preencher os dados de Endereco",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencher os dados do Estado Civil",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencher os dados do PIS",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "preencher os dados do Titulo Eleitor",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "preencher os dados do CertifiCado de Reservista",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "preencher os dados do Diploma Escolaridade",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "preencher os dados de Dependentes",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "acionar para finalizar o envio dos Documentos",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "aceitar o termo e finalizar",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "os documentos sao enviados com sucesso.",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Enviar Documentos de Admissao",
+    "description": "Como usuario \nEu quero me cadastrar na Plataforma do Aplicativo Conecta Afya e enviar meus Documentos para finalizar meu processo de Admissao.",
+    "id": "enviar-documentos-de-admissao",
+    "keyword": "Funcionalidade",
+    "uri": "CadastrarEnviarDocumentos.feature"
+  }
+]

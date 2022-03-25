@@ -74,4 +74,13 @@ public class InformacoesPessoaisPage extends BasePage {
 
 	}
 
+	public void botaoPularApresentacao() {
+		
+		
+		clicar(MobileBy.AccessibilityId("Pular apresentação"));
+		
+		
+		
+	}
+
 }

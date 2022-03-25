@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.conecta.afya.Cadastrar.EnviarDocumentos.test.CadastrarEnviarDocumentosTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 378.658 sec

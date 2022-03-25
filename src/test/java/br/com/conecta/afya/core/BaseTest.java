@@ -1,19 +1,20 @@
 package br.com.conecta.afya.core;
 
+import static br.com.conecta.afya.utils.Utils.removerAcentos;
+
 import java.io.File;
 import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.AfterClass;
-import org.junit.Rule;
-import org.junit.rules.TestName;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 public class BaseTest {
 
-	@Rule
-	public TestName testName = new TestName();
+	// @Rule
+	// public TestName testName = new TestName();
 
 	@AfterClass
 	public static void finalizaClasse() {
@@ -22,22 +23,39 @@ public class BaseTest {
 
 	}
 
+	
 	@After
 	public void tearDown() {
-		gerarScreenShot();
+
 		DriverFactory.getDriver().resetApp();
 
 	}
 
-	public void gerarScreenShot() {
+	// public void gerarScreenShot(String feature, String cenario) {
+	//
+	// File imagem = ((TakesScreenshot)
+	// DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
+	// try {
+	// FileUtils.copyFile(imagem, new File("target/screenshots/" +
+	// cenario.getId()+ ".jpg"));
+	// //FileUtils.copyFile(imagem, new File("target/screenshots/nome.jpg"));
+	//
+	// } catch (IOException e) {
+	// e.printStackTrace();
+	// }
+	//
+	// }
 
+	public void gerarScreenShot(String feature, String cenario) {
 		File imagem = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(imagem, new File("target/screenshots/" + testName.getMethodName() + ".png"));
+
+	
+			FileUtils.copyFile(imagem,
+					new File("target/evidencias/" + removerAcentos(feature) + "/" + removerAcentos(cenario) + ".jpg"));
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
-
 }
