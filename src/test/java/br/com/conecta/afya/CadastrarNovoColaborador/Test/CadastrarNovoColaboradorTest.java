@@ -12,11 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features/CadastrarNovoColaborador.feature", 
 		glue = {"br.com.conecta.afya.CadastrarNovoColaborador.steps"}, 
 		tags = "@criacao",
-		monochrome = true, dryRun = false, plugin = {
-				"html:target/CadastrarNovoColaborador.html",
-				"json:target/CadastrarNovoColaborador.json"})
-
-
+		monochrome = true, dryRun = false, 
+		plugin = {"json:target/CadastrarNovoColaborador.json","html:target/CadastrarNovoColaborador.html"})
 
 
 public class CadastrarNovoColaboradorTest extends BaseTest{

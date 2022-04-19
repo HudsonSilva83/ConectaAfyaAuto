@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 	glue = "br.com.conecta.afya.EnviarDocumentosDeAdmissao.steps", 
 	monochrome = true, 
 	dryRun = false,
-    //tags = "~@ignore",
+    tags = "~@ignore",
 	plugin = {"json:target/EnviarDocumentosDeAdmissao.json"})
 
 
