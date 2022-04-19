@@ -11,13 +11,14 @@ import io.cucumber.junit.CucumberOptions;
 	features = "src/test/resources/features/EnviarDocumentosDeAdmissao.feature", 
 	glue = "br.com.conecta.afya.EnviarDocumentosDeAdmissao.steps", 
 	monochrome = true, 
-	dryRun = false, 
+	dryRun = false,
+    tags = "~@ignore",
 	plugin = {"json:target/EnviarDocumentosDeAdmissao.json"})
 
 
 
 
 
-public class EnviarDocumentosDeAdmissao {
+public class EnviarDocumentosDeAdmissaoTest {
 
 }

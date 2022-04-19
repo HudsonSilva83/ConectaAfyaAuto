@@ -1,5 +1,6 @@
 # language: pt
 
+@ignore
 Funcionalidade: Enviar Documentos para Admimissao
 Como um novo Colaborador ja cadastrado na plataforma
 Eu quero enviar os meus documentos para Admissao
