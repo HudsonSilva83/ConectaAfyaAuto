@@ -11,6 +11,8 @@ import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import io.cucumber.java.AfterStep;
+
 
 public class BaseTest {
 
@@ -23,6 +25,15 @@ public class BaseTest {
 		DriverFactory.KillDriver();
 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	@After
@@ -59,5 +70,22 @@ public class BaseTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+
+
+
+
+
+	public static byte[] teste() throws IOException {
+		
+		File src = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
+		byte[] fileContent = FileUtils.readFileToByteArray(src);
+		return fileContent;
+		
+		
+		
+		
+		
 	}
 }

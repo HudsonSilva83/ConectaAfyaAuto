@@ -12,7 +12,7 @@ import br.com.conecta.afya.LoginApp.test.LoginAppTest;
 @SuiteClasses({
 
 		CadastrarNovoColaboradorTest.class, 
-		LoginAppTest.class, 
+		//LoginAppTest.class, 
 		//EnviarDocumentosDeAdmissaoTest.class
 
 })

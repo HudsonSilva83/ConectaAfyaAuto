@@ -1,5 +1,6 @@
 # language: pt
 
+@ignore
 @LogarApp
 Funcionalidade: Logar no App Conecta Afya
   Como um novo Colaborador 

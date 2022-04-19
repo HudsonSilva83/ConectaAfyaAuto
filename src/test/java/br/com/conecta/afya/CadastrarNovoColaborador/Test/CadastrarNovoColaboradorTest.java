@@ -13,7 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"br.com.conecta.afya.CadastrarNovoColaborador.steps"}, 
 		tags = "@criacao",
 		monochrome = true, dryRun = false, plugin = {
-				"json:target/CadastrarNovoColaborador.json" })
+				"html:target/CadastrarNovoColaborador.html",
+				"json:target/CadastrarNovoColaborador.json"})
 
 
 

@@ -1,8 +1,11 @@
 package br.com.conecta.afya.EnviarDocumentosDeAdmissao.steps;
 
+import java.io.IOException;
 import java.util.Map;
 
 import org.junit.Assert;
+
+import br.com.conecta.afya.core.BaseTest;
 import br.com.conecta.afya.page.EnviarDocumentacaoPage;
 import br.com.conecta.afya.page.HomePage;
 import br.com.conecta.afya.page.InformacoesPessoaisPage;
@@ -10,11 +13,13 @@ import br.com.conecta.afya.page.LoginPage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
+import net.bytebuddy.description.type.TypeDescription.Generic;
 
 public class EnviarDocumentosDeAdmissaoStep {
 
@@ -26,6 +31,15 @@ public class EnviarDocumentosDeAdmissaoStep {
 		// feature = cen.getId().split(";")[0];
 		cenario = cen.getName();
 
+	}
+	
+	
+	@AfterStep
+	public void as (Scenario scenario) throws IOException{
+		
+		scenario.attach(BaseTest.teste(), "imagem/png", "any name");
+		
+		
 	}
 
 	private AndroidDriver<MobileElement> driver;

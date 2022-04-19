@@ -1,5 +1,6 @@
 package br.com.conecta.afya.CadastrarNovoColaborador.steps;
 
+import java.io.IOException;
 import java.util.Map;
 
 import org.junit.Assert;
@@ -14,6 +15,7 @@ import br.com.conecta.afya.services.GerarCodigoAcesso;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.pt.Dado;
@@ -42,6 +44,13 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 
 		ExcluirUsuario exusu = new ExcluirUsuario();
 		exusu.excluirUsuario();
+
+	}
+
+	@AfterStep
+	public void as(Scenario scenario) throws IOException {
+
+		scenario.attach(BaseTest.teste(), "image/png", "Cadastrar Novo Colaborador");
 
 	}
 
@@ -410,37 +419,37 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 
 		cadastro.alterarEmail(email_1);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
 		cadastro.alterarEmail(email_2);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
 		cadastro.alterarEmail(email_3);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
 		cadastro.alterarEmail(email_4);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
 		cadastro.alterarEmail(email_5);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
 		cadastro.alterarEmail(email_6);
 		cadastro.botaoConfirmar();
-		
+
 		Assert.assertEquals("Digite um e-mail válido", cadastro.verificarMensagemErro(mensagem));
 		Assert.assertTrue(cadastro.botaoConfirmarDesabilitado());
 
