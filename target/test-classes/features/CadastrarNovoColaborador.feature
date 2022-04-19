@@ -9,30 +9,7 @@ Funcionalidade: Cadastrar novo colaborador
     E aciono comando avancar
     Entao o app apresenta a tela de "Bem vindo!"
 
-  @criacao
-  	 Cenario: Cadastrar novo Colaborador com sucesso
   
-  	     E apresenta a tela com os dados ja preenchidos
-  	      | nomeCompleto | Nome Teste           |
-  	      | email        | ""                   |
-  	      | celular      | (00) 00000-0000      |
-  	      | cargo        | ANALISTA DE DADOS PL |
-  	      | unidade      | AFYA                 |
-  	     Entao altero os campo nomeCompleto para "Automacao Conecta Afya"
-  		   E altero o campo email para "conecta.afya@gmail.com"
-  		   E altero o campo celular para "(31)99999-9999"
-  		   Quando aciono os comandos para aceitar o termo e confirmar
-  		   Então o app apresenta a tela para assinatura
-         Quando faco a assinatura e aciono avancar
-  		   E preencho o campo senha "@TesteAutomacaoAfya22" e aciono avancar
-  		   Entao o app apresenta a tela de Parabens com a opcao para continuar
-  		   E preencho o nome social "Automacao Social Afya" e aciono avancar
-  		   E preencho o apelido "Automacao Apelido Afya" e aciono avancar
-  		   E seleciono a opcao de certificado Reservista como "Sim" e aciono avancar
-  		   E seleciono a opcao de genero como "Não-binário" e aciono avancar
-  		   E seleciono a opcao de cor ou Raca como "Branca" e aciono avancar
-  		   Quando seleciono a opcao de tipo deficiencia como "Prefiro não informar" e aciono avancar
-  		   Entao o app apresenta a tela com a mensagem "Seu cadastro foi realizado com sucesso!".
   	
   	
   	@criacao
@@ -92,7 +69,7 @@ Funcionalidade: Cadastrar novo colaborador
   @criacao
   Cenario: Verificar etapa e dados apelido/certificado Reservista
   
-  E altero o campo celular para "(31)99999-9999"
+        E altero o campo celular para "(31)99999-9999"
   		  E aciono os comandos para aceitar o termo e confirmar
   	    E faco a assinatura e aciono avancar
   	    E preencho o campo senha "@TesteAutomacaoAfya22" e aciono avancar
@@ -181,3 +158,29 @@ Funcionalidade: Cadastrar novo colaborador
     Quando preencho o campo senha para validar de nivel forte
       | senhaForte | aA@1bBe3 |
     Entao o app apresenta a mensagem de senha forte "Senha forte" e habilita o comando para avancar
+    
+    
+    @criacao
+  	 Cenario: Cadastrar novo Colaborador com sucesso
+  
+  	     E apresenta a tela com os dados ja preenchidos
+  	      | nomeCompleto | Nome Teste           |
+  	      | email        | ""                   |
+  	      | celular      | (00) 00000-0000      |
+  	      | cargo        | ANALISTA DE DADOS PL |
+  	      | unidade      | AFYA                 |
+  	     Entao altero os campo nomeCompleto para "Automacao Conecta Afya"
+  		   E altero o campo email para "conecta.afya@gmail.com"
+  		   E altero o campo celular para "(31)99999-9999"
+  		   Quando aciono os comandos para aceitar o termo e confirmar
+  		   Então o app apresenta a tela para assinatura
+         Quando faco a assinatura e aciono avancar
+  		   E preencho o campo senha "@TesteAutomacaoAfya22" e aciono avancar
+  		   Entao o app apresenta a tela de Parabens com a opcao para continuar
+  		   E preencho o nome social "Automacao Social Afya" e aciono avancar
+  		   E preencho o apelido "Automacao Apelido Afya" e aciono avancar
+  		   E seleciono a opcao de certificado Reservista como "Sim" e aciono avancar
+  		   E seleciono a opcao de genero como "Não-binário" e aciono avancar
+  		   E seleciono a opcao de cor ou Raca como "Branca" e aciono avancar
+  		   Quando seleciono a opcao de tipo deficiencia como "Prefiro não informar" e aciono avancar
+  		   Entao o app apresenta a tela com a mensagem "Seu cadastro foi realizado com sucesso!".

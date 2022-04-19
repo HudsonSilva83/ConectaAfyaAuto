@@ -252,6 +252,7 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 
 		Thread.sleep(1000);
 		Assert.assertTrue(cadastro.verificarBotaoDesabilitadoAvancarAssinatura());
+		gerarScreenShot(feature, cenario);
 
 	}
 
@@ -268,6 +269,7 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 
 		informacoesPessoais.telaCadastroComSucesso();
 		Assert.assertEquals("true", informacoesPessoais.telaCadastradoSucesso());
+		gerarScreenShot(feature, cenario);
 
 	}
 
@@ -283,6 +285,7 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 
 		informacoesPessoais.telaCadastroComSucesso();
 		Assert.assertEquals("true", informacoesPessoais.telaCadastradoSucesso());
+		gerarScreenShot(feature, cenario);
 
 	}
 
@@ -311,6 +314,7 @@ public class CadastrarNovoColaboradorStep extends BaseTest {
 	public void o_app_apresenta_o_nome_social_mantido_como(String nomeSocial) {
 
 		Assert.assertEquals(nomeSocial, cadastro.verificarTextoCampo(nomeSocial));
+		gerarScreenShot(feature, cenario);
 
 	}
 
