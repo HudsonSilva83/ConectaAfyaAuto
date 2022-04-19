@@ -4,17 +4,18 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import br.com.conecta.afya.Cadastrar.EnviarDocumentos.test.CadastrarEnviarDocumentosTest;
-
+import br.com.conecta.afya.CadastrarNovoColaborador.Test.CadastrarNovoColaboradorTest;
+import br.com.conecta.afya.EnviarDocumentosDeAdmissao.test.EnviarDocumentosDeAdmissao;
+import br.com.conecta.afya.LoginApp.test.LoginApp;
 
 @RunWith(Suite.class)
 @SuiteClasses({
 
-	CadastrarEnviarDocumentosTest.class, 
-	
+		CadastrarNovoColaboradorTest.class, 
+		//LoginAppTest.class, 
+		//EnviarDocumentosDeAdmissaoTest.class
 
 })
 public class SuiteGeral {
 
-	
 }

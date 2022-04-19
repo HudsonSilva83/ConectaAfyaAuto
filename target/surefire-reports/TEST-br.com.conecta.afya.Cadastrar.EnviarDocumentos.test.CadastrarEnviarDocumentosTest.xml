@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="br.com.conecta.afya.Cadastrar.EnviarDocumentos.test.CadastrarEnviarDocumentosTest" time="373.868" errors="0" skipped="0">
+<testsuite tests="0" failures="0" name="br.com.conecta.afya.Cadastrar.EnviarDocumentos.test.CadastrarEnviarDocumentosTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\DELL\Downloads\vendor\conemu-maximus5;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\drivers;C:\maven\bin;C:\Users\DELL\AppData\Local\Android\Sdk\emulator;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;C:\Users\DELL\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202;C:\src\flutter\bin;C:\dart-sdk\bin;C:\apache-maven-3.8.5\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\drivers;C:\Program Files\Java\jdk1.8.0_202;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\DELL\Downloads\vendor\conemu-maximus5;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\drivers;C:\maven\bin;C:\Users\DELL\AppData\Local\Android\Sdk\emulator;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;C:\Users\DELL\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202;C:\src\flutter\bin;C:\dart-sdk\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\drivers;C:\Program Files\Java\jdk1.8.0_202;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
     <property name="maven.conf" value="C:\maven/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,5 +65,4 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Enviar Documentos de Admissao" name="Cadastrar e Enviar Documentos de admissao com sucesso" time="373.868"/>
 </testsuite>

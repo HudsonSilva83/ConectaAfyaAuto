@@ -17,7 +17,7 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	public void descerTela() throws InterruptedException {
 
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		scroll(0.6, 0.1);
 
 	}
@@ -50,8 +50,8 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	public void botaoEnviar() throws InterruptedException {
 
-		Thread.sleep(4000);
-		scroll(0.9, 0.1);
+//		Thread.sleep(4000);
+//		scroll(0.9, 0.1);
 
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 15);
 		wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId("ENVIAR")));
@@ -68,19 +68,13 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 	}
 
-	public void pegarArquivoeSocial() throws InterruptedException {
+	public void selecionarArquivoeSocial() throws InterruptedException {
 
 		Thread.sleep(2000);
-		// scroll(0.8, 0.1);
-
-		// clicar(By.xpath("//android.widget.ImageButton[@content-desc='Show
-		// roots']"));
-
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='arquivoJPG.jpg']")));
-
 		clicar(By.xpath("//*[@text='arquivoJPG.jpg']"));
-		// clicar(By.xpath("//*[@text='eSocial.pdf']"));
+	
 		descerTela();
 
 	}
@@ -254,13 +248,35 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 		botaoAnexarArquivo();
 		// scroll(0.8, 0.1);
-		clicar(By.xpath("//*[@text='arquivoJPG.jpg']"));
-		scroll(0.8, 0.1);
-		botaoEnviarArquivo();
+		//clicar(By.xpath("//*[@text='arquivoJPG.jpg']"));
+		
 
 	}
+	
+	
+	
+	
+	public void selecionarArquivoJPG(){
+		
+		clicar(By.xpath("//*[@text='arquivoJPG.jpg']"));
+		
+			
+		
+	}
+	
+	
+	public void selecionarArquivoPDF(){
+		
+		clicar(By.xpath("//*[@text='arquivoPDF.pdf']"));
+		
+			
+		
+	}
+	
+	
+	
 
-	public void anexarFoto() throws InterruptedException {
+	public void anexarArquivoJpg() throws InterruptedException {
 
 		botaoAnexarArquivo();
 		// scroll(0.8, 0.1);
@@ -270,6 +286,21 @@ public class EnviarDocumentacaoPage extends BasePage {
 		botaoEnviarArquivo();
 
 	}
+
+
+	public void anexarArquivoPDF() throws InterruptedException {
+
+		botaoAnexarArquivo();
+		// scroll(0.8, 0.1);
+		clicar(By.xpath("//*[@text='arquivoPDF.pdf']"));
+		Thread.sleep(2000);
+		scroll(0.8, 0.1);
+		botaoEnviarArquivo();
+
+	}
+	
+	
+	
 
 	public void botaoSelecionar() {
 
@@ -482,6 +513,36 @@ public class EnviarDocumentacaoPage extends BasePage {
 
 		return obterTextoAtributo(MobileBy.AccessibilityId("Documentos enviados"));
 
+	}
+
+	public String telaDocumentosNecessarios() {
+		return obterTextoAtributo(MobileBy.AccessibilityId("Você só pode concluir o processo se estiver com os documentos abaixo, com exceção do que não se aplica"));
+		
+	}
+
+	public String verificarTelaIdentidade() {
+		
+		return obterTextoAtributo(MobileBy.AccessibilityId("Documento de identidade"));
+	}
+
+	public String verificarTelaConfirmacaoRG() {
+		return obterTextoAtributo(MobileBy.AccessibilityId("Confirmação do RG"));
+	}
+	
+	
+	public String verificarMensagemCarteiraTrabalho(String mensagem) {
+		
+		return obterTextoAtributo(MobileBy.AccessibilityId(mensagem));
+	}
+
+	public String verificarTelaFoto3x4() {
+		return obterTextoAtributo(MobileBy.AccessibilityId("Foto 3x4"));
+		
+	}
+
+	public String verificarMensagemFoto3X4(String mensagem) {
+		return obterTextoAtributo(MobileBy.AccessibilityId(mensagem));
+		
 	}
 
 }

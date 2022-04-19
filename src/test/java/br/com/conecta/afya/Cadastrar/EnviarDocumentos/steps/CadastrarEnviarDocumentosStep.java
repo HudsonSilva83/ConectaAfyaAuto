@@ -26,8 +26,8 @@ public class CadastrarEnviarDocumentosStep extends BaseTest {
 
 	@Before
 	public void setCenario(Scenario cen) {
-		cenario = cen.getName();
-		feature = cen.getId().split(";")[0];
+//		cenario = cen.getName();
+//		feature = cen.getId().split(";")[0];
 
 	}
 
@@ -53,12 +53,13 @@ public class CadastrarEnviarDocumentosStep extends BaseTest {
 
 		System.out.println(codigo);
 
-		// Credenciais credenciais = ObterCPFSenha.postCredenciais();
+		// Credenciais credenciais = Obter@Senha.postCredenciais();
 		//
 		// String CPF = credenciais.getLogin();
 		// String codigo = credenciais.getPassword();
 		//
-		Thread.sleep(3000);
+
+
 		home.preencherCodigoAcesso(codigo);
 		home.avancarButton();
 		Thread.sleep(2000);
@@ -129,7 +130,7 @@ public class CadastrarEnviarDocumentosStep extends BaseTest {
 
 		enviarDocPage.botaoEnviar();
 		enviarDocPage.botaoAnexarArquivo();
-		enviarDocPage.pegarArquivoeSocial();
+		enviarDocPage.selecionarArquivoeSocial();
 		enviarDocPage.botaoEnviarArquivo();
 		Thread.sleep(6000);
 		enviarDocPage.botaoEnviar();
@@ -206,7 +207,7 @@ public class CadastrarEnviarDocumentosStep extends BaseTest {
 		enviarDocPage.preencherComplemento("Ap 101 Bloco F");
 		enviarDocPage.botaoCheckFinalizar();
 		enviarDocPage.anexarComprovanteResidencia();
-		enviarDocPage.anexarFoto();
+		enviarDocPage.anexarArquivoPDF();
 
 	}
 

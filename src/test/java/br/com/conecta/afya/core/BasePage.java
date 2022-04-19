@@ -49,6 +49,12 @@ public class BasePage {
 		return getDriver().findElement(by).getAttribute("content-desc");
 
 	}
+	
+	public String obterTextoAtributoText(By by) {
+
+		return getDriver().findElement(by).getAttribute("text");
+
+	}
 
 	public void clicarCombo(By by) {
 
@@ -62,9 +68,9 @@ public class BasePage {
 		getDriver().findElement(by).click();
 
 	}
-	
+
 	public void clicarCheck(By by) {
-		
+
 		getDriver().findElement(by).click();
 
 	}
@@ -94,14 +100,44 @@ public class BasePage {
 		return elemento.getAttribute("displayed");
 
 	}
-	
-	
+
 	public String obterAtributoHabilitado2(By by) {
 
 		MobileElement elemento = getDriver().findElement(by);
 		return elemento.getAttribute("enabled");
 
 	}
+
+	public boolean obterAtributoHabilitadoClicavel(By by, String atributo) {
+
+		MobileElement elemento = getDriver().findElement(by);
+		return elemento.getAttribute("clickable").contains(atributo);
+
+	}
+	
+	
+	public boolean verificarBotaoDesabilitado(By by) {
+
+		MobileElement elemento = getDriver().findElement(by);
+		return elemento.getAttribute("clickable").contains("false");
+
+	}
+	
+	
+	
+	
+	public boolean verificarRadio(By by) {
+
+		MobileElement elemento = getDriver().findElement(by);
+		return elemento.getAttribute("clickable").contains("true");
+
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 
@@ -153,6 +189,16 @@ public class BasePage {
 		return elemento.getAttribute(atributo).contains(texto);
 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 
 	public MobileElement atributo(By by) {
 
@@ -196,7 +242,7 @@ public class BasePage {
 
 	public void clicarDuplo() {
 
-		clicar(MobileBy.AccessibilityId("Já tenho uma conta"));
+		clicar(MobileBy.AccessibilityId("JÃ¡ tenho uma conta"));
 
 	}
 

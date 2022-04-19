@@ -11,6 +11,7 @@ import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+
 public class BaseTest {
 
 	// @Rule
@@ -26,8 +27,9 @@ public class BaseTest {
 	
 	@After
 	public void tearDown() {
-
-		DriverFactory.getDriver().resetApp();
+		
+		
+		//DriverFactory.getDriver().resetApp();
 
 	}
 

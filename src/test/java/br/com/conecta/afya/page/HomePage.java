@@ -10,14 +10,14 @@ import io.appium.java_client.MobileBy;
 
 public class HomePage extends BasePage {
 
-	public void clicarCampoCodigoAcesso() {
+	public void clicarCampoCodigoAcesso(String id) {
 
-		clicar(MobileBy.AccessibilityId("Digite o código de acesso"));
+		clicar(MobileBy.AccessibilityId(id));
 
 	}
 
 	public void preencherCodigoAcesso(String codigoAcesso) {
-		clicarCampoCodigoAcesso();
+		
 		escrever(By.xpath("//*[@text='Código']"), codigoAcesso);
 
 	}
@@ -35,20 +35,28 @@ public class HomePage extends BasePage {
 	}
 
 	public String verificarCadastroSucesso() {
-		
-//		 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
-//				 15);
-//				 wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId(("Cadastro Conta criada com sucesso :) Envio de documentos Realizado com sucesso :) Escolha de benef�cios Aqui voc� vai poder escolher e editar os seus benef�cios Exame Admissional Fique tranquilo, nossa equipe vai agendar seu exame admissional. Documento Admissional Aqui voc� vai poder ver, editar e assinar sua ficha de cadastro"))));
-		
-		
+
+		// WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(),
+		// 15);
+		// wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId(("Cadastro
+		// Conta criada com sucesso :) Envio de documentos Realizado com sucesso
+		// :) Escolha de benef�cios Aqui voc� vai poder escolher e editar os
+		// seus benef�cios Exame Admissional Fique tranquilo, nossa equipe vai
+		// agendar seu exame admissional. Documento Admissional Aqui voc� vai
+		// poder ver, editar e assinar sua ficha de cadastro"))));
+
 		return obterTextoAtributo(MobileBy.AccessibilityId("Seu processo de admissão"));
 	}
 
 	public String verificarEnvioDocumentoSucesso() {
 		return obterTextoAtributo(MobileBy.AccessibilityId(""));
-		
-		
-		
+
+	}
+
+	public String verificarHomeJaTenhoConta() {
+
+		return obterTextoAtributo(MobileBy.AccessibilityId("Já tenho uma conta"));
+
 	}
 
 }
