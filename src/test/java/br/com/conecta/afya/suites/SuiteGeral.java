@@ -7,7 +7,7 @@ import org.junit.runners.Suite.SuiteClasses;
 import br.com.conecta.afya.ACadastrarNovoColaborador.Test.ACadastrarNovoColaboradorTest;
 import br.com.conecta.afya.BLoginApp.test.BLoginAppTest;
 import br.com.conecta.afya.CEnviarDocumentosDeAdmissao.test.CEnviarDocumentosDeAdmissaoTest;
-import br.com.conecta.afya.DAdicionarDadosBancarios.Test.DAdicionarDadosBancarios;
+import br.com.conecta.afya.DAdicionarDadosBancarios.Test.DAdicionarDadosBancariosTest;
 
 @RunWith(Suite.class)
 @SuiteClasses({

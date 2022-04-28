@@ -13,17 +13,17 @@ Funcionalidade: Informar os Dados Bancarios
           
       
        
-    Cenario: Enviar Conta Bancaria depois
+    #Cenario: Enviar Conta Bancaria depois
      #ps. iniciar o cadastro e envio de documentos tudo novamente
-		    Quando aciono o comando Enviar Depois
-		    Entao o app apresenta a tela home com status como "Etapa pendente" e a opcao de enviar os dados bancarios
-		  
-     
-    Cenario: Adicionar Conta Bancaria depois
+#		    Quando aciono o comando Enviar Depois
+#		    Entao o app apresenta a tela home com status como "Etapa pendente" e a opcao de enviar os dados bancarios
+#		  
+     #
+    #Cenario: Adicionar Conta Bancaria depois
     #ps. iniciar o cadastro e envio de documentos tudo novamente 
-		    E aciono o comando para comecar
-		    Quando aciono o comando Adicionar uma conta Depois
-		    Entao o app retorna para a tela home com status como "Etapa pendente" e a opcao de enviar os dados bancarios
+#		    E aciono o comando para comecar
+#		    Quando aciono o comando Adicionar uma conta Depois
+#		    Entao o app retorna para a tela home com status como "Etapa pendente" e a opcao de enviar os dados bancarios
 		        
       
     @ContaBancaria 
