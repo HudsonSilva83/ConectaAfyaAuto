@@ -16,6 +16,6 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"json:target/CadastrarNovoColaborador.json","html:target/CadastrarNovoColaborador.html"})
 
 
-public class CadastrarNovoColaboradorTest extends BaseTest{
+public class ACadastrarNovoColaboradorTest extends BaseTest{
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="br.com.conecta.afya.CadastrarNovoColaborador.Test.CadastrarNovoColaboradorTest" time="55.756" errors="2" skipped="0">
+<testsuite tests="2" failures="0" name="br.com.conecta.afya.AdicionarDadosBancarios.Test.AdicionarDadosBancariosTest" time="51.871" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,19 +65,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Cadastrar novo colaborador" name="Cadastrar novo Colaborador com sucesso" time="27.878">
+  <testcase classname="Informar os Dados Bancarios" name="Adicionar uma conta Bancaria" time="25.935">
     <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456
+Session ID: e848fb4f-11a7-4725-99c4-fee1359a5d51
 *** Element info: {Using=accessibility id, value=Já tenho uma conta}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456
+Session ID: e848fb4f-11a7-4725-99c4-fee1359a5d51
 *** Element info: {Using=accessibility id, value=Já tenho uma conta}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -102,52 +102,28 @@ Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at br.com.conecta.afya.core.BasePage.obterTextoAtributo(BasePage.java:51)
-	at br.com.conecta.afya.page.HomePage.verificarHomeJaTenhoConta(HomePage.java:58)
-	at br.com.conecta.afya.CadastrarNovoColaborador.steps.CadastrarNovoColaboradorStep.que_eu_esteja_na_tela_home_do_aplicativo(CadastrarNovoColaboradorStep.java:74)
-	at ✽.que eu esteja na tela Home do aplicativo(file:///C:/Users/DELL/workspace/ConectaAfyaAuto/src/test/resources/features/CadastrarNovoColaborador.feature:6)
+	at br.com.conecta.afya.core.BasePage.limpar(BasePage.java:309)
+	at br.com.conecta.afya.core.BasePage.clicar(BasePage.java:71)
+	at br.com.conecta.afya.page.HomePage.clicarJaTenhoUmaConta(HomePage.java:33)
+	at br.com.conecta.afya.AdicionarDadosBancarios.steps.AdicionarDadosBancariosStep.que_eu_esteja_logado_e_que_ja_tenha_enviado_os_documentos_para_admissao(AdicionarDadosBancariosStep.java:52)
+	at ✽.que eu esteja logado e que ja tenha enviado os documentos para admissao(file:///C:/Users/DELL/workspace/ConectaAfyaAuto/src/test/resources/features/AdicionarDadosBancarios.feature:7)
 </error>
-    <system-out>UsuÃ¡rio excluÃ­do com sucesso!
-HTTP/1.1 200 OK
-</system-out>
-    <system-err>?????????????????????????????????????????????????????????????????????????????????????
-? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
-? Activate publishing with one of the following:                                    ?
-?                                                                                   ?
-? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
-? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
-? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
-? JUnit:                                           @CucumberOptions(publish = true) ?
-?                                                                                   ?
-? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
-?                                                                                   ?
-? Disable this message with one of the following:                                   ?
-?                                                                                   ?
-? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
-? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
-?????????????????????????????????????????????????????????????????????????????????????
-SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-abr 28, 2022 6:14:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+    <system-err>abr 28, 2022 6:14:09 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFORMAÇÕES: Detected dialect: W3C
 </system-err>
   </testcase>
-  <testcase classname="Cadastrar novo colaborador" name="Cadastrar novo Colaborador com sucesso" time="27.878">
+  <testcase classname="Informar os Dados Bancarios" name="Adicionar uma conta Bancaria" time="25.936">
     <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Session ID: e848fb4f-11a7-4725-99c4-fee1359a5d51" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456
+Session ID: e848fb4f-11a7-4725-99c4-fee1359a5d51
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -163,7 +139,7 @@ Session ID: b54fa569-3a8d-415e-bb8a-f6aa9db9c456
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at br.com.conecta.afya.core.BaseTest.teste(BaseTest.java:74)
-	at br.com.conecta.afya.CadastrarNovoColaborador.steps.CadastrarNovoColaboradorStep.as(CadastrarNovoColaboradorStep.java:53)
+	at br.com.conecta.afya.AdicionarDadosBancarios.steps.AdicionarDadosBancariosStep.as(AdicionarDadosBancariosStep.java:33)
 </error>
   </testcase>
 </testsuite>

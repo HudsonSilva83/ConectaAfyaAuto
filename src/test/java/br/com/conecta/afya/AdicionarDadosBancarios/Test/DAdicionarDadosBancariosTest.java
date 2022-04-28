@@ -12,6 +12,6 @@ import io.cucumber.junit.CucumberOptions;
 				"br.com.conecta.afya.AdicionarDadosBancarios.steps" }, tags = "@ContaBancaria", monochrome = true, dryRun = false, plugin = {
 						"json:target/AdicionarDadosBancarios.json", "html:target/AdicionarDadosBancarios.html"})
 
-public class AdicionarDadosBancariosTest {
+public class DAdicionarDadosBancariosTest {
 
 }

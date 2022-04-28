@@ -5,12 +5,14 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\servic
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\GerarCodigoAcesso.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Post.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\DriverFactory.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\AdicionarDadosBancarios\Test\AdicionarDadosBancariosTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\security\CriptexFrw.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\Cadastrar\EnviarDocumentos\steps\CadastrarEnviarDocumentosStep.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Utils.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\EnviarDocumentacaoPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\ExcluirUsuario.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\BaseTest.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\AdicionarDadosBancarios\steps\AdicionarDadosBancariosStep.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\EnviarDocumentosDeAdmissao\test\EnviarDocumentosDeAdmissaoTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\BasePage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\model\Credenciais.java
@@ -20,6 +22,7 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\C
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroSenhaPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\CadastrarNovoColaborador\Test\CadastrarNovoColaboradorTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\LoginApp\steps\LoginAppStep.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\DadosBancariosPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\GerarIdPlataforma.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Util.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\CadastrarNovoColaborador\steps\CadastrarNovoColaboradorStep.java
