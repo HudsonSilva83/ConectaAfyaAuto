@@ -12,10 +12,10 @@ import br.com.conecta.afya.LoginApp.test.LoginAppTest;
 @RunWith(Suite.class)
 @SuiteClasses({
 
-		//CadastrarNovoColaboradorTest.class, 
+		CadastrarNovoColaboradorTest.class, 
 		LoginAppTest.class, 
-		//EnviarDocumentosDeAdmissaoTest.class,
-		//AdicionarDadosBancariosTest.class
+		EnviarDocumentosDeAdmissaoTest.class,
+		AdicionarDadosBancariosTest.class
 
 })
 public class SuiteGeral {
