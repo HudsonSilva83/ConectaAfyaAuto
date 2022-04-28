@@ -222,7 +222,7 @@ public class CadastrarEnviarDocumentosStep extends BaseTest {
 	@Quando("preencher os dados do PIS")
 	public void preencher_os_dados_do_pis() throws InterruptedException {
 
-		enviarDocPage.botaoPreencherPis("11111111111");
+		//enviarDocPage.botaoPreencherPis("11111111111");
 
 	}
 

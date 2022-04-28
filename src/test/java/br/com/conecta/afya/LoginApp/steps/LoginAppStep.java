@@ -1,5 +1,7 @@
 package br.com.conecta.afya.LoginApp.steps;
 
+import java.io.IOException;
+
 import org.junit.Assert;
 
 import br.com.conecta.afya.core.BaseTest;
@@ -9,6 +11,7 @@ import br.com.conecta.afya.page.LoginPage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.pt.Dado;
@@ -30,6 +33,14 @@ public class LoginAppStep extends BaseTest {
 		//feature = cen.getId().split(";")[0];
 		cenario = cen.getName();
 		
+
+	}
+	
+	
+	@AfterStep
+	public void as(Scenario scenario) throws IOException {
+
+		scenario.attach(BaseTest.teste(), "image/png", "Login");
 
 	}
 

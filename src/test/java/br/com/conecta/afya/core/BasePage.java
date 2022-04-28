@@ -46,6 +46,11 @@ public class BasePage {
 
 	public String obterTextoAtributo(By by) {
 
+		
+		WebDriverWait wait = new WebDriverWait(getDriver(), 15);
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
+		
+			
 		return getDriver().findElement(by).getAttribute("content-desc");
 
 	}

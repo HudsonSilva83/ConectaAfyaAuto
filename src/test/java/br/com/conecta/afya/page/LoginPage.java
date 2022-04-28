@@ -70,7 +70,7 @@ public class LoginPage extends BasePage {
 
 	public void botaoEnviarDocumentos() {
 
-		scroll(0.6, 0.1);
+		
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 15);
 		wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId("ENVIAR DOCUMENTOS")));
 		clicar(MobileBy.AccessibilityId("ENVIAR DOCUMENTOS"));

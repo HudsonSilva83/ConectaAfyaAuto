@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="br.com.conecta.afya.CadastrarNovoColaborador.Test.CadastrarNovoColaboradorTest" time="836.654" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="br.com.conecta.afya.CadastrarNovoColaborador.Test.CadastrarNovoColaboradorTest" time="101.362" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,15 +65,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Cadastrar novo colaborador" name="Cadastrar novo Colaborador com sucesso" time="92.8"/>
-  <testcase classname="Cadastrar novo colaborador" name="Limpar assinatura" time="60.271"/>
-  <testcase classname="Cadastrar novo colaborador" name="Pular preenchimento do nome social" time="81.743"/>
-  <testcase classname="Cadastrar novo colaborador" name="Pular preenchimento do Apelido" time="79.999"/>
-  <testcase classname="Cadastrar novo colaborador" name="Verificar etapa e dados nome social/apelido" time="70.42"/>
-  <testcase classname="Cadastrar novo colaborador" name="Verificar etapa e dados apelido/certificado Reservista" time="70.487"/>
-  <testcase classname="Cadastrar novo colaborador" name="Verificar etapa e dados certificado Reservista/identidade de genero" time="73.306"/>
-  <testcase classname="Cadastrar novo colaborador" name="Verificar etapa e dados identidade de genero/corRaca" time="76.726"/>
-  <testcase classname="Cadastrar novo colaborador" name="Verificar etapa e dados corRaca/tipo deficiencia" time="78.477"/>
-  <testcase classname="Cadastrar novo colaborador" name="Validar mensagem com e-mail invalido" time="78.076"/>
-  <testcase classname="Cadastrar novo colaborador" name="Validar nivel da senha" time="74.349"/>
+  <testcase classname="Cadastrar novo colaborador" name="Cadastrar novo Colaborador com sucesso" time="101.362"/>
 </testsuite>

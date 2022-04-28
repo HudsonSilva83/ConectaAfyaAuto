@@ -1,4 +1,5 @@
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\ObterCPFSenha.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\LoginApp\test\LoginAppTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Teste.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\ExcluirDocumentos.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\GerarCodigoAcesso.java
@@ -10,7 +11,7 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\EnviarDocumentacaoPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\services\ExcluirUsuario.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\BaseTest.java
-C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\EnviarDocumentosDeAdmissao\test\EnviarDocumentosDeAdmissao.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\EnviarDocumentosDeAdmissao\test\EnviarDocumentosDeAdmissaoTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\BasePage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\model\Credenciais.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\suites\SuiteGeral.java
@@ -19,7 +20,6 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\C
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroSenhaPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\CadastrarNovoColaborador\Test\CadastrarNovoColaboradorTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\LoginApp\steps\LoginAppStep.java
-C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\LoginApp\test\LoginApp.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\GerarIdPlataforma.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Util.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\CadastrarNovoColaborador\steps\CadastrarNovoColaboradorStep.java

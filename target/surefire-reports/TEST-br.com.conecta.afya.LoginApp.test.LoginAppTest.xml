@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="br.com.conecta.afya.LoginApp.test.LoginAppTest" time="155.915" errors="1" skipped="0">
+<testsuite tests="0" failures="0" name="br.com.conecta.afya.LoginApp.test.LoginAppTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,70 +65,4 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Logar no App Conecta Afya" name="Logar no APP com sucesso" time="65.57">
-    <error message="An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: f8c26728-edc8-49bf-85e6-86052ee857c0
-*** Element info: {Using=accessibility id, value=Seu processo de admissão}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;1RCMJC2&apos;, ip: &apos;192.168.100.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
-Session ID: f8c26728-edc8-49bf-85e6-86052ee857c0
-*** Element info: {Using=accessibility id, value=Seu processo de admissão}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
-	at io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:274)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at br.com.conecta.afya.core.BasePage.obterTextoAtributo(BasePage.java:49)
-	at br.com.conecta.afya.page.LoginPage.verificarTelaLogada(LoginPage.java:54)
-	at br.com.conecta.afya.LoginApp.steps.LoginAppStep.o_app_irá_direcionar_para_a_tela_logada(LoginAppStep.java:91)
-	at ✽.o APP irá direcionar para a tela logada(file:///C:/Users/DELL/workspace/ConectaAfyaAuto/src/test/resources/features/LoginApp.feature:19)
-</error>
-    <system-err>?????????????????????????????????????????????????????????????????????????????????????
-? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
-? Activate publishing with one of the following:                                    ?
-?                                                                                   ?
-? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
-? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
-? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
-? JUnit:                                           @CucumberOptions(publish = true) ?
-?                                                                                   ?
-? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
-?                                                                                   ?
-? Disable this message with one of the following:                                   ?
-?                                                                                   ?
-? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
-? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
-?????????????????????????????????????????????????????????????????????????????????????
-abr 14, 2022 3:52:12 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFORMAÇÕES: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="Logar no App Conecta Afya" name="Logar com CPF inválido" time="41.534"/>
-  <testcase classname="Logar no App Conecta Afya" name="Logar com senha inválida" time="48.811"/>
 </testsuite>
