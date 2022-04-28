@@ -7,6 +7,7 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\CEnvia
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\core\DriverFactory.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\security\CriptexFrw.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\Cadastrar\EnviarDocumentos\steps\CadastrarEnviarDocumentosStep.java
+C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\BLoginApp\test\BLoginAppTest.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\Utils.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\DAdicionarDadosBancarios\Test\DAdicionarDadosBancarios.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\EnviarDocumentacaoPage.java
@@ -20,7 +21,6 @@ C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\ACadas
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\HomePage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\CadastroSenhaPage.java
-C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\BLoginApp\test\BLoginApp.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\LoginApp\steps\LoginAppStep.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\page\DadosBancariosPage.java
 C:\Users\DELL\workspace\ConectaAfyaAuto\src\test\java\br\com\conecta\afya\utils\GerarIdPlataforma.java

@@ -13,6 +13,6 @@ import io.cucumber.junit.CucumberOptions;
 				 //tags = "~@ignore",
 		plugin = {"pretty","json:target/LoginApp.json","html:target/LoginApp.html"})
 
-public class BLoginApp extends BaseTest{
+public class BLoginAppTest extends BaseTest{
 
 }
