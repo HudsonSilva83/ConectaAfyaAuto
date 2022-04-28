@@ -1,13 +1,10 @@
-br\com\conecta\afya\BLoginApp\test\BLoginAppTest.class
 br\com\conecta\afya\core\DriverFactory.class
 br\com\conecta\afya\page\InformacoesPessoaisPage.class
 br\com\conecta\afya\DAdicionarDadosBancarios\steps\AdicionarDadosBancariosStep.class
 br\com\conecta\afya\model\Credenciais.class
-br\com\conecta\afya\DAdicionarDadosBancarios\Test\DAdicionarDadosBancariosTest.class
 br\com\conecta\afya\utils\GerarIdPlataforma.class
 br\com\conecta\afya\page\DadosBancariosPage.class
 br\com\conecta\afya\services\GerarCodigoAcesso.class
-br\com\conecta\afya\CEnviarDocumentosDeAdmissao\test\CEnviarDocumentosDeAdmissaoTest.class
 br\com\conecta\afya\page\CadastroPage.class
 br\com\conecta\afya\utils\Teste.class
 br\com\conecta\afya\services\ExcluirDocumentos.class
