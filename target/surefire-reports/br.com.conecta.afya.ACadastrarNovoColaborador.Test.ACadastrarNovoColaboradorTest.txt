@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: br.com.conecta.afya.ACadastrarNovoColaborador.Test.ACadastrarNovoColaboradorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 44.054 sec <<< FAILURE!
+Cadastrar novo Colaborador com sucesso(Cadastrar novo colaborador)  Time elapsed: 42.772 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '1RCMJC2', ip: '192.168.100.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
+Session ID: 2fc5c84d-ebd4-4da1-8964-37ae361dd500
+*** Element info: {Using=accessibility id, value=Já tenho uma conta}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at br.com.conecta.afya.core.BasePage.obterTextoAtributo(BasePage.java:51)
+	at br.com.conecta.afya.page.HomePage.verificarHomeJaTenhoConta(HomePage.java:58)
+	at br.com.conecta.afya.CadastrarNovoColaborador.steps.CadastrarNovoColaboradorStep.que_eu_esteja_na_tela_home_do_aplicativo(CadastrarNovoColaboradorStep.java:74)
+	at ?.que eu esteja na tela Home do aplicativo(file:///C:/Users/DELL/workspace/ConectaAfyaAuto/src/test/resources/features/CadastrarNovoColaborador.feature:6)
+
+Cadastrar novo Colaborador com sucesso(Cadastrar novo colaborador)  Time elapsed: 42.773 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '1RCMJC2', ip: '192.168.100.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\DELL\workspace\Con..., appPackage: com.afya.conecta.app, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\workspace\Con..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: Nexus_4_API_30, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1136, left: 0, top: 48, width: 768}, warnings: {}, webStorageEnabled: false}
+Session ID: 2fc5c84d-ebd4-4da1-8964-37ae361dd500
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at br.com.conecta.afya.core.BaseTest.teste(BaseTest.java:74)
+	at br.com.conecta.afya.CadastrarNovoColaborador.steps.CadastrarNovoColaboradorStep.as(CadastrarNovoColaboradorStep.java:53)
+

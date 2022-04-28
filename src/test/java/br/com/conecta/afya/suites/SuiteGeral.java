@@ -4,10 +4,10 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import br.com.conecta.afya.AdicionarDadosBancarios.Test.DAdicionarDadosBancariosTest;
-import br.com.conecta.afya.CadastrarNovoColaborador.Test.ACadastrarNovoColaboradorTest;
-import br.com.conecta.afya.EnviarDocumentosDeAdmissao.test.CEnviarDocumentosDeAdmissaoTest;
-import br.com.conecta.afya.LoginApp.test.BLoginAppTest;
+import br.com.conecta.afya.ACadastrarNovoColaborador.Test.ACadastrarNovoColaboradorTest;
+import br.com.conecta.afya.BLoginApp.test.BLoginAppTest;
+import br.com.conecta.afya.CEnviarDocumentosDeAdmissao.test.CEnviarDocumentosDeAdmissaoTest;
+import br.com.conecta.afya.DAdicionarDadosBancarios.Test.DAdicionarDadosBancariosTest;
 
 @RunWith(Suite.class)
 @SuiteClasses({
