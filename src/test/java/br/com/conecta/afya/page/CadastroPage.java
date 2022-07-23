@@ -77,7 +77,7 @@ public class CadastroPage extends BasePage {
 	}
 
 	public void botaoConfirmar() {
-		 
+
 		clicar(MobileBy.AccessibilityId("CONFIRMAR"));
 
 	}
@@ -85,11 +85,10 @@ public class CadastroPage extends BasePage {
 	public void alterarEmail(String email) throws InterruptedException {
 
 		clicar(By.xpath("(//android.widget.ImageView)[2]"));
-		//limpar(By.xpath("//*[@text='conectateste001@gmail.com']"));
+		// limpar(By.xpath("//*[@text='conectateste001@gmail.com']"));
 		limpar(By.xpath("//android.widget.EditText"));
 		escrever(By.xpath("//*[@text='Digite aqui']"), email);
 		Thread.sleep(1000);
-		
 
 	}
 
@@ -114,7 +113,7 @@ public class CadastroPage extends BasePage {
 		scroll(0.9, 0.2);
 
 	}
-	
+
 	public void descerTelaTeste() {
 
 		scroll(0.9, 0.6);
@@ -284,7 +283,7 @@ public class CadastroPage extends BasePage {
 	}
 
 	public String verificarQuantCampoCelular() throws InterruptedException {
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		String mascara = obterTextoAtributoText(By.xpath("(//android.widget.EditText)[1]"));
 		// String mascara = obterTextoAtributoText(By.xpath("//*[@text='(01)
 		// 11111-1111']"));
@@ -295,28 +294,31 @@ public class CadastroPage extends BasePage {
 	}
 
 	public String obterMensagem(String mensagemSenhaFraca) {
-		
+
 		return obterTextoAtributo(MobileBy.AccessibilityId(mensagemSenhaFraca));
-		
-	}
-	
-	
-public void apagarCampoSenha(String valor) {
-	
-		
-		limpar(By.xpath("//*[@text='"+valor+"']"));
-		
-		
+
 	}
 
-public void clicarVisualizar() {
-	clicar(By.xpath("(//android.widget.ImageView)[1]"));
-	
-}
+	public void apagarCampoSenha(String valor) {
 
-public boolean verificarBotaoAvancarDesabilitado() {
-	return verificarBotaoDesabilitado(By.xpath("(//android.widget.Button)[2]"));
-	
-}
+		limpar(By.xpath("//*[@text='" + valor + "']"));
+
+	}
+
+	public void clicarVisualizar() {
+		clicar(By.xpath("(//android.widget.ImageView)[1]"));
+
+	}
+
+	public boolean verificarBotaoAvancarDesabilitado() {
+		return verificarBotaoDesabilitado(By.xpath("(//android.widget.Button)[2]"));
+
+	}
+
+	public String verificarEtapasConcluidas() {
+		String etapasConcluidas = obterTextoAtributo(By.xpath("(//android.view.View/android.widget.ImageView)[2]"));
+		return etapasConcluidas.replaceAll("\\n", " ");
+
+	}
 
 }

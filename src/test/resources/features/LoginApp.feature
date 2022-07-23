@@ -1,7 +1,6 @@
 # language: pt
 
 
-
 Funcionalidade: Logar no App Conecta Afya
   Como um novo Colaborador 
   Eu quero logar na Plataforma do Aplicativo Conecta Afya.
@@ -10,7 +9,7 @@ Funcionalidade: Logar no App Conecta Afya
     Dado que eu esteja na tela de Home
     Quando quando clico na opção "Já tenho uma conta"
   
-  
+  @Logar
   Cenario: Logar no APP com sucesso
     E preeencho o campo com um CPF valido "28612091004"
     E aciono comando para avancar cpf
@@ -19,13 +18,13 @@ Funcionalidade: Logar no App Conecta Afya
     E aciono o comando avancar senha
     Então o APP irá direcionar para a tela logada
     
-  
-  Cenario: Logar com CPF inválido
+  @Logar
+  Cenario: Logar com CPF inv28álido
     E preeencho o campo com um CPF inválido "28612091003"
     E aciono comando para avancar
     Então o APP apresenta mensagem "Digite um CPF válido."
     
-  
+  @Logar
   Cenario: Logar com senha inválida
     E preeencho o campo com um CPF válido "28612091004"
     E aciono comando para avancar

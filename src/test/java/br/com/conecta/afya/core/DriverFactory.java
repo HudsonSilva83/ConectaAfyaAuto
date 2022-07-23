@@ -29,6 +29,9 @@ public class DriverFactory {
 	private static void createDriver() {
 		DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 		
+		//desiredCapabilities.setCapability("deviceName", "Motorola");
+	    //desiredCapabilities.setCapability("udid", "ZF52356RSK");
+		
 		desiredCapabilities.setCapability("deviceName", "Nexus_4_API_30");
 	    desiredCapabilities.setCapability("udid", "emulator-5554");
 	    desiredCapabilities.setCapability("platformName", "Android");
@@ -36,7 +39,7 @@ public class DriverFactory {
 	    desiredCapabilities.setCapability("automationName", "uiautomator2");
 	    desiredCapabilities.setCapability("autoGrantPermissions", "true");
 	    		desiredCapabilities.setCapability(MobileCapabilityType.APP,
-		"C:\\Users\\DELL\\workspace\\ConectaAfyaAuto\\src\\test\\resources\\16100103.apk");
+		"C:\\Users\\DELL\\workspace\\ConectaAfyaAuto\\src\\test\\resources\\16110115.apk");
 
 		try {
 			driver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);

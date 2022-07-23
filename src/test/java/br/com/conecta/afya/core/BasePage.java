@@ -24,6 +24,10 @@ public class BasePage {
 
 	public void escrever(By by, String texto) {
 
+		
+		WebDriverWait wait = new WebDriverWait(getDriver(), 20);
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
+		
 		getDriver().findElement(by).sendKeys(texto);
 
 	}
@@ -46,15 +50,13 @@ public class BasePage {
 
 	public String obterTextoAtributo(By by) {
 
-		
-		WebDriverWait wait = new WebDriverWait(getDriver(), 15);
+		WebDriverWait wait = new WebDriverWait(getDriver(), 30);
 		wait.until(ExpectedConditions.presenceOfElementLocated(by));
-		
-			
+
 		return getDriver().findElement(by).getAttribute("content-desc");
 
 	}
-	
+
 	public String obterTextoAtributoText(By by) {
 
 		return getDriver().findElement(by).getAttribute("text");
@@ -68,6 +70,10 @@ public class BasePage {
 	}
 
 	public void clicar(By by) {
+		
+		WebDriverWait wait = new WebDriverWait(getDriver(), 15);
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
+		
 		limpar(by);
 		getDriver().findElement(by).clear();
 		getDriver().findElement(by).click();
@@ -75,6 +81,9 @@ public class BasePage {
 	}
 
 	public void clicarCheck(By by) {
+
+		WebDriverWait wait = new WebDriverWait(getDriver(), 15);
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
 
 		getDriver().findElement(by).click();
 
@@ -119,32 +128,20 @@ public class BasePage {
 		return elemento.getAttribute("clickable").contains(atributo);
 
 	}
-	
-	
+
 	public boolean verificarBotaoDesabilitado(By by) {
 
 		MobileElement elemento = getDriver().findElement(by);
 		return elemento.getAttribute("clickable").contains("false");
 
 	}
-	
-	
-	
-	
+
 	public boolean verificarRadio(By by) {
 
 		MobileElement elemento = getDriver().findElement(by);
 		return elemento.getAttribute("clickable").contains("true");
 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 
 	public boolean existeElementosPorTexto(String texto) {
 
@@ -194,16 +191,6 @@ public class BasePage {
 		return elemento.getAttribute(atributo).contains(texto);
 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 
 	public MobileElement atributo(By by) {
 
@@ -217,6 +204,12 @@ public class BasePage {
 
 		AndroidTouchAction touch = new AndroidTouchAction(getDriver());
 		touch.press(PointOption.point(x, y)).perform();
+
+	}
+
+	public void tapNormal(int x, int y) {
+
+		new TouchAction(getDriver()).press(PointOption.point(x, y)).release().perform();
 
 	}
 
@@ -282,6 +275,10 @@ public class BasePage {
 		return obterTexto(By.id("android:id/message"));
 
 	}
+	
+	
+
+
 
 	public void tap(MobileElement buttonElemnt) {
 

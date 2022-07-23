@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 
 		features = "src/test/resources/features/AdicionarDadosBancarios.feature", glue = {
-				"br.com.conecta.afya.AdicionarDadosBancarios.steps" }, tags = "@ContaBancaria", monochrome = true, dryRun = false, plugin = {
+				"br.com.conecta.afya.DAdicionarDadosBancarios.steps" }, tags = "@ContaBancaria", monochrome = true, dryRun = false, plugin = {
 						"json:target/AdicionarDadosBancarios.json", "html:target/AdicionarDadosBancarios.html"})
 
 public class DAdicionarDadosBancariosTest {

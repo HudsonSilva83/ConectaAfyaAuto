@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 	features = "src/test/resources/features/EnviarDocumentosDeAdmissao.feature", 
-	glue = "br.com.conecta.afya.EnviarDocumentosDeAdmissao.steps", 
+	glue = "br.com.conecta.afya.CEnviarDocumentosDeAdmissao.steps", 
 	monochrome = true, 
 	dryRun = false,
     //tags = "~@ignore",

@@ -30,6 +30,7 @@ public class ObterCPFSenha {
 		int IdPlataforma = id.gerarIdPlataforma();
 
 		String json = "{\"beneficios\":[{\"tipo\":\"VA_VR\"},{\"tipo\":\"SAUDE\",\"descricao\":\"enfermaria\"},{\"tipo\":\"ONDONTO\"},{\"tipo\":\"VT\"}],\"cargo\":\"Analista\",\"coligada\":1,\"cpf\":\"77707180070\",\"email\":\"hu.psilva@gmail.com\",\"filial\":1,\"idPlataforma\":\""+IdPlataforma+"\",\"name\":\"HudsonSilva\",\"nomeBanco\":\"TODOS\",\"nomeSocial\":\"HudsonSilva\",\"telefone\":\"031994143659\",\"unidade\":\"AFYA\",\"salario\":\"3000.00\"}";
+		
 		StringEntity entity = new StringEntity(json);
 		httpPost.setEntity(entity);
 
@@ -50,10 +51,11 @@ public class ObterCPFSenha {
 		credenciais.setLogin(jsonParse.getAsJsonObject("data").get("login").getAsString());
 		credenciais.setPassword(jsonParse.getAsJsonObject("data").get("password").getAsString());
 
-		// System.out.println(responseAsString);
+	 System.out.println(responseAsString);
 		// System.out.println(response.getStatusLine());
 		// System.out.println(responseAsString.trim());
-		// System.out.println(response.getStatusLine());
+		 System.out.println(response.getStatusLine());
+		
 		client.close();
 		return credenciais;
 	}

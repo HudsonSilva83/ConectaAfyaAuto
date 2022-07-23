@@ -1,5 +1,7 @@
 package br.com.conecta.afya.ACadastrarNovoColaborador.Test;
 
+
+
 import org.junit.runner.RunWith;
 
 import br.com.conecta.afya.core.BaseTest;
@@ -10,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 
 		features = "src/test/resources/features/CadastrarNovoColaborador.feature", 
-		glue = {"br.com.conecta.afya.CadastrarNovoColaborador.steps"}, 
+		glue = {"br.com.conecta.afya.ACadastrarNovoColaborador.steps"}, 
 		tags = "@criacao",
 		monochrome = true, dryRun = false, 
 		plugin = {"json:target/CadastrarNovoColaborador.json","html:target/CadastrarNovoColaborador.html"})

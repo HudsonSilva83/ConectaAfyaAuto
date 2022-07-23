@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="br.com.conecta.afya.BLoginApp.test.BLoginAppTest" time="146.876" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="br.com.conecta.afya.BLoginApp.test.BLoginAppTest" time="156.272" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\DELL\Downloads\vendor\conemu-maximus5;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\drivers;C:\maven\bin;C:\Users\DELL\AppData\Local\Android\Sdk\emulator;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;C:\Users\DELL\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202;C:\src\flutter\bin;C:\dart-sdk\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\drivers;C:\Program Files\Java\jdk1.8.0_202;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\DELL\Downloads\vendor\conemu-maximus5;C:\Users\DELL\Downloads\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\drivers;C:\maven\bin;C:\Users\DELL\AppData\Local\Android\Sdk\emulator;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;C:\Users\DELL\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202;C:\src\flutter\bin;C:\dart-sdk\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\drivers;C:\Program Files\Java\jdk1.8.0_202;."/>
     <property name="maven.conf" value="C:\maven/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test clean"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Logar no App Conecta Afya" name="Logar no APP com sucesso" time="52.15"/>
-  <testcase classname="Logar no App Conecta Afya" name="Logar com CPF inválido" time="43.597"/>
-  <testcase classname="Logar no App Conecta Afya" name="Logar com senha inválida" time="51.129"/>
+  <testcase classname="Logar no App Conecta Afya" name="Logar no APP com sucesso" time="56.75"/>
+  <testcase classname="Logar no App Conecta Afya" name="Logar com CPF inv28álido" time="45.004"/>
+  <testcase classname="Logar no App Conecta Afya" name="Logar com senha inválida" time="54.518"/>
 </testsuite>

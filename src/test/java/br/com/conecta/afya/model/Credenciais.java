@@ -6,6 +6,8 @@ public class Credenciais {
 
 	String login;
 	String password;
+	String teste01 = "teste01";
+	String teste02 = "teste02";
 
 	public String getLogin() {
 
@@ -36,6 +38,8 @@ public class Credenciais {
 	public String toString() {
 
 		return "Credenciais{" + "login=" + login + ", password=" + password + '}';
+		
+	
 
 	}
 

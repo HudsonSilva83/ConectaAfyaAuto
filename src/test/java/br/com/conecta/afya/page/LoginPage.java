@@ -82,6 +82,12 @@ public class LoginPage extends BasePage {
 		return obterTextoAtributo(MobileBy.AccessibilityId(mensagem));
 	}
 	
+	public String verificarEtapasConcluidas() {
+		String etapasConcluidas =  obterTextoAtributo(By.xpath("(//android.view.View/android.widget.ImageView)[2]"));
+		return etapasConcluidas.replaceAll("\\n", " ");
+		
+	}
+	
 	
 	
 

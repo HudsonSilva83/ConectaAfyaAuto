@@ -142,6 +142,12 @@ public class DadosBancariosPage extends BasePage {
 		clicar(MobileBy.AccessibilityId("ENVIAR ARQUIVO"));
 		
 	}
+	
+	public String verificarEtapasConcluidas() {
+		String etapasConcluidas =  obterTextoAtributo(By.xpath("(//android.view.View/android.widget.ImageView)[2]"));
+		return etapasConcluidas.replaceAll("\\n", " ");
+		
+	}
 		
 	}
 	

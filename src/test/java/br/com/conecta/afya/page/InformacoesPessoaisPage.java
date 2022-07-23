@@ -16,7 +16,6 @@ public class InformacoesPessoaisPage extends BasePage {
 	public void preencherCampoNomeSocial(String nomeSocial) {
 
 		escrever(By.xpath("//*[@text='Digite seu nome social']"), nomeSocial);
-		
 
 	}
 
@@ -75,12 +74,9 @@ public class InformacoesPessoaisPage extends BasePage {
 	}
 
 	public void botaoPularApresentacao() {
-		
-		
+
 		clicar(MobileBy.AccessibilityId("Pular apresentação"));
-		
-		
-		
+
 	}
 
 }

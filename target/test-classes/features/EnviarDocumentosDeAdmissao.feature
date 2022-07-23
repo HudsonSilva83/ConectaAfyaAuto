@@ -30,7 +30,7 @@ Funcionalidade: Enviar Documentos para Admimissao
     E seleciono a primeira foto para anexar
     E seleciono a segunda foto para anexar
     E aciono o comando para enviar o arquivo
-    Entao o app apresenta mensagem de envio dos documentos de identidade "Documento anexado com sucesso"
+    Entao o app apresenta mensagem de envio dos documentos de identidade "Documento enviado com sucesso"
     E o app apresenta a tela para selecionar o Estado civil
     E aciono o comando selecionar para seguir com Estado Civil
     E informo qual estado civil "Solteiro(a)"
@@ -39,19 +39,19 @@ Funcionalidade: Enviar Documentos para Admimissao
     E aciono o comando para anexar a certidao de nascimento
     E seleciono o arquivo para anexar
     E aciono o comando para enviar o arquivo
-    Entao o app apresenta mensagem da certidao de nascimento enviado com sucesso "Documento anexado com sucesso"
+    Entao o app apresenta mensagem da certidao de nascimento enviado com sucesso "Documento enviado com sucesso"
     E o app apresenta a tela para anexar o Certificado de reservista
     E aciono o comando anexar arquivo Certificado de Reservista
     E seleciono o arquivo Certificado de Reservista
     E aciono o comando Enviar Arquivo Certificado de Reservista
-    Entao o app apresenta mensagem do certificado de reservista enviado "Documento anexado com sucesso"
+    Entao o app apresenta mensagem do certificado de reservista enviado "Documento enviado com sucesso"
     E o app apresenta a tela para enviar o Diploma ou comprovante de escolaridade
     E aciono o comando para enviar o Diploma
     E seleciono a opcao referente ao Grau de Instituicao "Ensino fundamental incompleto" e acionando avancar
     E aciono o comando anexar arquivo do diploma de escolaridade
     E seleciono o arquivo de escolaridade
     E aciono o comando Enviar Arquivo de escolaridade
-    Entao o app apresenta mensagem do Diploma Comprovante enviado "Documento anexado com sucesso"
+    Entao o app apresenta mensagem do Diploma Comprovante enviado "Documento enviado com sucesso"
     Entao o app apresenta a tela para iniciar as informacoes do Titulo de eleitor
     E aciono o comando Enviar para o titulo de eleitor
     E preencho os campos referente ao título de eleitor e avancando apos o seu preenchimento
@@ -65,12 +65,12 @@ Funcionalidade: Enviar Documentos para Admimissao
     E aciono o comando anexar o arquivo
     E seleciono o arquivo
     E aciono o comando Enviar Arquivo
-    Entao o app apresenta mensagem de envio do titulo "Documento anexado com sucesso"
+    Entao o app apresenta mensagem de envio do titulo "Documento enviado com sucesso"
     E o app apresenta a tela para anexar o Comprovante da ultima votacao
     E aciono o comando anexar o arquivo do comprovante
     E seleciono o arquivo do comprovante
     E aciono o comando Enviar Arquivo do comprovante
-    Entao o app apresenta mensagem do Comprovante da ultima votacao "Documento anexado com sucesso"
+    Entao o app apresenta mensagem do Comprovante da ultima votacao "Documento enviado com sucesso"
     E apresenta a tela para iniciar o envio do documento carteira de trabalho
     E aciono o comando Enviar para iniciar o envio do documento carteira de trabalho
     E preencho os campos da carteira de trabalho com os seguintes dados e avancando apos o seu preenchimento
@@ -105,14 +105,14 @@ Funcionalidade: Enviar Documentos para Admimissao
     E aciono o comando para anexar o comprovante de residencia
     E seleciono o arquivo para anexar
     E aciono o comando para enviar o arquivo
-    Entao o app apresenta mensagem de envio do comprovante de residencia "Documento anexado com sucesso"
+    Entao o app apresenta mensagem de envio do comprovante de residencia "Documento enviado com sucesso"
     E o app apresenta a tela de Declaracao de dependentes
     E aciono a opcao referente a dependentes "NÃO TENHO DEPENDENTES"
     E o app apresenta a tela para anexar o documento foto 3x4
     E aciono o comando para anexar a foto
     E seleciono a foto para anexar
     E aciono o comando para enviar o arquivo foto
-    Entao o app apresenta mensagem de sucesso para o arquivo foto "Documento anexado com sucesso"
+    Entao o app apresenta mensagem de sucesso para o arquivo foto "Documento enviado com sucesso"
     E o app apresenta a tela com os Documentos RG ou CNH anexado e preenchidos
       | Numero          |         12281029 |
       | Orgao           | SSP              |
@@ -143,7 +143,7 @@ Funcionalidade: Enviar Documentos para Admimissao
     E o app apresenta a tela com o numero do PIS "11111111111"
     E o app apresenta a tela com o eSocial anexado
     E o app apresenta a tela com o comprovante de residencia anexado com os dados
-      | CEP      |                                               31070350 |
+      | CEP      |31070350 |
       | Endereco | Avenida Argelia, 355 Casa - Boa Vista - BELO HORIZONTE |
     E o app apresenta a tela com a foto 3x4 anexada
     E aciono o comando Concluir Envio

@@ -11,7 +11,6 @@ import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import io.cucumber.java.AfterStep;
 
 
 public class BaseTest {
@@ -36,20 +35,6 @@ public class BaseTest {
 
 	}
 
-	// public void gerarScreenShot(String feature, String cenario) {
-	//
-	// File imagem = ((TakesScreenshot)
-	// DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
-	// try {
-	// FileUtils.copyFile(imagem, new File("target/screenshots/" +
-	// cenario.getId()+ ".jpg"));
-	// //FileUtils.copyFile(imagem, new File("target/screenshots/nome.jpg"));
-	//
-	// } catch (IOException e) {
-	// e.printStackTrace();
-	// }
-	//
-	// }
 
 	public void gerarScreenShot(String feature, String cenario) {
 		File imagem = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);

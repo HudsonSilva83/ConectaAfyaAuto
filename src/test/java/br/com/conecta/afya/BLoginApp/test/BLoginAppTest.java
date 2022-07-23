@@ -9,8 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = "src/test/resources/features/LoginApp.feature", glue = "br.com.conecta.afya.LoginApp.steps", monochrome = true, dryRun = false,
+		features = "src/test/resources/features/LoginApp.feature", glue = "br.com.conecta.afya.BLoginApp.steps", monochrome = true, dryRun = false,
 				 //tags = "~@ignore",
+		tags ="@Logar",
 		plugin = {"pretty","json:target/LoginApp.json","html:target/LoginApp.html"})
 
 public class BLoginAppTest extends BaseTest{
