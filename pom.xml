@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		
+
 		<junit-jupiter.version>5.2.0</junit-jupiter.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-	
+
 
 	</properties>
 
@@ -24,10 +24,10 @@
 		<plugins>
 
 
-				
-				
-				
-			
+
+
+
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -44,15 +44,26 @@
 
 			</plugin>
 
+<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.8</source>
+				<target>1.8</target>
+			</configuration>
+</plugin>
 		</plugins>
 
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 	</build>
 
 	<dependencies>
@@ -102,13 +113,13 @@
 
 
 
-<dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.22</version>
-        </dependency>
-        
-        
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.22</version>
+		</dependency>
+
+
 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -143,7 +154,17 @@
 
 
 
+
+
+
+
+
 	</dependencies>
+
+
+
+
+
 
 
 </project>
