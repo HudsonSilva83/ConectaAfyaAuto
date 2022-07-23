@@ -10,7 +10,7 @@ Funcionalidade: Documentos Admissionais
     Entao o app apresenta a tela para iniciar a validacao dos documentos Admissional
     Quando aciono o comando para comecar a verificar
     
-  
+  @teste 
   Cenario: Validar documentos Admissional (Dados Pessoais) 
     
     Entao o app apresenta a tela para confirmar os dados do RG
@@ -52,7 +52,7 @@ Funcionalidade: Documentos Admissionais
 	      | Bairro         |  Boa Vista               |
 	      | Cidade         |  BELO HORIZONTE          | 
      
- 
+    @teste 
     Cenario: Validar documentos Admissional (Dados do Cargo) 
     
 	    Entao o app apresenta a tela para confirmar os dados do Cargo
@@ -67,7 +67,7 @@ Funcionalidade: Documentos Admissionais
         | Opcao F            |  -                     | 
         | Horario            |  -                     |
         
-          @teste 
+        
 	   Cenario: Validar documentos Admissional (Dados da empresa) 
     
 	    Entao o app apresenta a tela para confirmar os dados da empresa

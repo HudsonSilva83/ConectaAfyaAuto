@@ -78,7 +78,7 @@ public class ExameAdmissionalDAO {
 
 			stmt.executeUpdate();
 
-			JOptionPane.showMessageDialog(null, "confirmado e enviado com sucesso");
+			//JOptionPane.showMessageDialog(null, "confirmado e enviado com sucesso");
 
 		} catch (SQLException e1) {
 			// JOptionPane.showMessageDialog(null, "Erro ao salvar: " + e1);
